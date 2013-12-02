@@ -20,8 +20,6 @@ KISSY.add(function (S, Node, Base, DOM, SWF, UA) {
             allowScriptAccess: 'always',
             wmode: 'transparent',
             allowFullScreen: true,
-            //menu: false,
-            //quality: 'high',
             flashvars: {},
             showloadinglogo: true,
             showlogobtn: false,
