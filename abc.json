@@ -1,0 +1,15 @@
+{
+    "name": "tb-video-player",
+    "comName":"TbVideoPlayer",
+    "version": "1.0",
+    "desc": "",
+    "tag":"video,player",
+    "githubName":"xiaosong",
+    "author": {
+        "name": "岳松",
+        "email": "yuesong.xys@taobao.com",
+        "page": "https://github.com/xiaosong"
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
