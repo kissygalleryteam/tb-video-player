@@ -1,8 +1,7 @@
 {
     "name": "tb-video-player",
-    "comName":"TbVideoPlayer",
     "version": "1.0",
-    "desc": "",
+    "desc": "淘宝视频播放器，KISSY gallery组件",
     "tag":"video,player",
     "githubName":"xiaosong",
     "author": {
@@ -10,6 +9,7 @@
         "email": "yuesong.xys@taobao.com",
         "page": "https://github.com/xiaosong"
     },
+    "cover": "http://gtms01.alicdn.com/tps/i1/T19azCFn8cXXaEROQ0-660-374.png",
     "type": "kissy-gallery",
     "type-url": "http://gallery.kissyui.com/guide"
 }
