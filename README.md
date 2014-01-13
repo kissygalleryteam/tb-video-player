@@ -1,10 +1,14 @@
 ## tb-video-player
 
-* 版本：1.1
-* 教程：[http://gallery.kissyui.com/tb-video-player/1.1/guide/index.html](http://gallery.kissyui.com/tb-video-player/1.1/guide/index.html)
-* demo：[http://gallery.kissyui.com/tb-video-player/1.1/demo/index.html](http://gallery.kissyui.com/tb-video-player/1.1/demo/index.html)
+* 版本：1.2
+* 教程：[http://gallery.kissyui.com/tb-video-player/1.2/guide/index.html](http://gallery.kissyui.com/tb-video-player/1.2/guide/index.html)
+* demo：[http://gallery.kissyui.com/tb-video-player/1.2/demo/index.html](http://gallery.kissyui.com/tb-video-player/1.2/demo/index.html)
 
 ## changelog
+
+### V1.2
+
+    1. `container`支持DOM和Node对象；
 
 ### V1.1
 
