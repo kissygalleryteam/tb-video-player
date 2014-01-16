@@ -8,7 +8,7 @@ build time: Aug 15 00:08
  * insert swf into document in an easy way
  * @author yiminghe@gmail.com, oicuicu@gmail.com
  */
-KISSY.add('swf', function (S, DOM, JSON, Base, FlashUA, undefined) {
+KISSY.add('gallery/tb-video-player/1.3/core/swf', function (S, DOM, JSON, Base, FlashUA, undefined) {
 
     var UA = S.UA,
         TYPE = 'application/x-shockwave-flash',
