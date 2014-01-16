@@ -48,6 +48,13 @@ module.exports = function(grunt) {
                         src: ['**/*.js', '!**/*-min.js'],
                         dest: '<%= pkg.version %>/build',
                         ext: '-min.js'
+                    },
+                    {
+                        expand: true,
+                        cwd: '<%= pkg.version %>/core',
+                        src: ['**/*.js', '!**/*-min.js'],
+                        dest: '<%= pkg.version %>/core',
+                        ext: '-min.js'
                     }
                 ]
             }
