@@ -254,6 +254,6 @@ KISSY.add('gallery/tb-video-player/1.4/index',function (S, Node, Base, DOM, SWF,
 
     return TbVideoPlayer;
 
-}, {requires:['node', 'base', 'dom', KISSY.version < '1.30' ? 'gallery/gallery/tb-video-player/1.3/core/swf' : 'swf', 'ua']});
+}, {requires:['node', 'base', 'dom', KISSY.version < '1.30' ? '../1.3/core/swf' : 'swf', 'ua']});
 
 
