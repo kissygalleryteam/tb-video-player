@@ -248,5 +248,5 @@ KISSY.add(function (S, Node, Base, DOM, SWF, UA) {
 
     return TbVideoPlayer;
 
-}, {requires:['node', 'base', 'dom', KISSY.version < '1.30' ? './core/swf' : 'swf', 'ua']});
+}, {requires:['node', 'base', 'dom', KISSY.version < '1.30' ? 'gallery/tb-video-player/1.3/core/swf' : 'swf', 'ua']});
 

@@ -48,13 +48,6 @@ module.exports = function(grunt) {
                         src: ['**/*.js', '!**/*-min.js'],
                         dest: '<%= pkg.version %>/build',
                         ext: '-min.js'
-                    },
-                    {
-                        expand: true,
-                        cwd: '<%= pkg.version %>/core',
-                        src: ['**/*.js', '!**/*-min.js'],
-                        dest: '<%= pkg.version %>/core',
-                        ext: '-min.js'
                     }
                 ]
             }
@@ -66,12 +59,6 @@ module.exports = function(grunt) {
                         expand: true,
                         cwd: '<%= pkg.version %>',
                         src: ['**/*.css'],
-                        dest: '<%= pkg.version %>/build'
-                    },
-                    {
-                        expand: true,
-                        cwd: '<%= pkg.version %>',
-                        src: ['core/*.js'],
                         dest: '<%= pkg.version %>/build'
                     }
                 ]
