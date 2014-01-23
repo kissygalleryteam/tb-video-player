@@ -74,13 +74,10 @@ Callback支持一个参数player，为播放器对应的Dom节点
 ### Methods
 
 1. `destroy()`
-
 销毁淘宝视频播放器
 
 2. `play()`
-
 播放（继续播放）淘宝视频播放器
 
 3. `pause()`
-
 暂停淘宝视频播放器
