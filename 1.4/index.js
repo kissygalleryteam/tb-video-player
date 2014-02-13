@@ -117,12 +117,6 @@ KISSY.add(function (S, Node, Base, DOM, SWF, UA) {
                 },
                 render: _container
             });
-            //PC端播放器准备就绪
-            window.tbPlayerOnReady = function(){
-                if (typeof CallBack === 'function') {
-                    CallBack(DOM.get('#' + _guid));
-                }
-            }
         } else if (PLATFORM.isMobile) {
             var _video_node = DOM.create('<video>', {
                 width: VideoConfig.width,
@@ -138,12 +132,12 @@ KISSY.add(function (S, Node, Base, DOM, SWF, UA) {
                 DOM.attr(_video_node, 'autoplay', 'autoplay');
             }
             DOM.append(_video_node, _container);
-            if (typeof CallBack === 'function') {
-                CallBack(DOM.get('#' + _guid));
-            }
         } else {
             S.log('Neither PC or Mobile, tell me what to do...');
             return;
+        }
+        if (typeof CallBack === 'function') {
+            CallBack(DOM.get('#' + _guid));
         }
 
     }
