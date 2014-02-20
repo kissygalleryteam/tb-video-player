@@ -1,6 +1,6 @@
 {
     "name": "tb-video-player",
-    "version": "1.4",
+    "version": "1.5",
     "desc": "淘宝视频播放器，KISSY gallery组件",
     "tag":"video,player",
     "githubName":"xiaosong",

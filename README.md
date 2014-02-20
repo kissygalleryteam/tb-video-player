@@ -1,10 +1,14 @@
 ## tb-video-player
 
-* 版本：1.4
-* 教程：[http://gallery.kissyui.com/tb-video-player/1.4/guide/index.html](http://gallery.kissyui.com/tb-video-player/1.4/guide/index.html)
-* demo：[http://gallery.kissyui.com/tb-video-player/1.4/demo/index.html](http://gallery.kissyui.com/tb-video-player/1.4/demo/index.html)
+* 版本：1.5
+* 教程：[http://gallery.kissyui.com/tb-video-player/1.5/guide/index.html](http://gallery.kissyui.com/tb-video-player/1.5/guide/index.html)
+* demo：[http://gallery.kissyui.com/tb-video-player/1.5/demo/index.html](http://gallery.kissyui.com/tb-video-player/1.5/demo/index.html)
 
 ## changelog
+
+### V1.5
+
+1. 修复一个页面上有多个播放器同时存在引起的bug；
 
 ### V1.4
 
