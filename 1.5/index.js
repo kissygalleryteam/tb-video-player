@@ -137,7 +137,8 @@ KISSY.add(function (S, Node, Base, DOM, SWF) {
                 });
 
                 self._destroy = function() {
-                    self._swf.destroy();
+                    self._swf && self._swf.destroy && self._swf.destroy();
+                    self._swf = null;
                 }
 
                 self._play = function(){
