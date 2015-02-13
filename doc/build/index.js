@@ -209,6 +209,6 @@ KISSY.add('kg/tb-video-player/2.0.0/index',function (S, Node, Base, DOM, SWF) {
 
     return TbVideoPlayer;
 
-}, {requires:['node', 'base', 'dom', KISSY.version < '1.30' ? '../1.3/core/swf' : 'swf']});
+}, {requires:['node', 'base', 'dom', 'swf']});
 
 
