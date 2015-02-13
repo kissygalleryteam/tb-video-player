@@ -2,15 +2,15 @@
 
 TbVideoPlayer
 
--   版本：2.0.0
+-   版本：2.0.1
 
 -   作者：岳松
 
--   demo：<http://kg.kissyui.com/tb-video-player/2.0.0/demo/index.html>
+-   demo：<http://kg.kissyui.com/tb-video-player/2.0.1/demo/index.html>
 
 ## 初始化组件
 
-    KISSY.use('kg/tb-video-player/2.0.0/index', function (S, TbVideoPlayer) {
+    KISSY.use('kg/tb-video-player/2.0.1/index', function (S, TbVideoPlayer) {
         var tb_video_player = new TbVideoPlayer(Configs, Callback);
     })
 
