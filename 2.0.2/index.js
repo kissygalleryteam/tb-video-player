@@ -64,7 +64,7 @@ KISSY.add(function (S, Node, Base, DOM, SWF) {
             return;
         }
 
-        var _video_url = 'http://cloud.video.';
+        var _video_url = '//cloud.video.';
         _video_url += config.isDaily ? 'daily.taobao.net' : 'taobao.com';
         _video_url += '/play/u/';
         _video_url += config.uid + '/p/';
